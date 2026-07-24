@@ -2119,15 +2119,17 @@ export default function App() {
         /* SECURE GLASSMORPHISM LOGIN FIELD */
         <div
           id="login-module-section"
-          className="flex-1 flex flex-col items-center justify-center p-6 relative bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#011424] overflow-hidden"
+          className="flex-1 flex flex-col items-center justify-center p-6 relative overflow-hidden"
+          style={{
+            background: 'radial-gradient(circle at center, rgba(34, 159, 160, 0.45) 0%, rgba(28, 91, 107, 1) 75%, #082127 100%)',
+          }}
         >
           {/* Ambient Blur Lights simulation */}
-          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#1C5B6B]/20 rounded-full filter blur-[100px] pointer-events-none animate-pulse"></div>
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#229FA0]/10 rounded-full filter blur-[120px] pointer-events-none"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#229FA0]/30 rounded-full filter blur-[120px] pointer-events-none animate-pulse"></div>
 
           <div
             id="login-container-card"
-            className="w-full max-w-md dark-glass-panel rounded-3xl p-8 relative flex flex-col z-10 transition-transform"
+            className="w-full max-w-[520px] dark-glass-panel rounded-3xl p-8 relative flex flex-col z-10 transition-transform"
           >
             {/* HIDDEN BACKDOOR "F24" TRIGGER (CLICK 4 TIMES) */}
             <button
@@ -2151,10 +2153,10 @@ export default function App() {
               <img
                 src="https://i.postimg.cc/rpDCFdmd/22-8.png" referrerPolicy="no-referrer" alt="NextPage Logo" className="w-full max-w-[240px] h-auto mx-auto mb-4 object-contain animate-pulse"
               />
-              <h2 className="text-2xl font-black text-white tracking-wide">
+              <h2 className="text-2xl font-black text-white tracking-wide whitespace-nowrap">
                 {lang === "ar"
-                  ? "بوابة NextPage Co لخدمات الأعمال"
-                  : "NextPage Co System"}
+                  ? "بوابة شركة الصفحة التالية للخدمات التقنية"
+                  : "NextPage Co System Gateway"}
               </h2>
               <p className="text-xs text-cyan-400 font-bold tracking-widest uppercase mt-1">
                 {lang === "ar"

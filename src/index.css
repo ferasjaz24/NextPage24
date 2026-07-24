@@ -88,25 +88,25 @@ body {
 }
 
 .dark-glass-panel {
-  background: rgba(15, 23, 42, 0.85);
+  background: rgba(10, 34, 40, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(0, 174, 239, 0.15);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(34, 159, 160, 0.25);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.55);
 }
 
 /* Special Neon glow animations */
 .neon-glow-cyan {
-  box-shadow: 0 0 10px rgba(0, 174, 239, 0.5), 0 0 20px rgba(0, 174, 239, 0.2);
+  box-shadow: 0 0 10px rgba(34, 159, 160, 0.5), 0 0 20px rgba(34, 159, 160, 0.2);
 }
 
 .neon-glow-blue {
-  box-shadow: 0 0 10px rgba(0, 114, 188, 0.6), 0 0 20px rgba(0, 114, 188, 0.3);
+  box-shadow: 0 0 10px rgba(28, 91, 107, 0.6), 0 0 20px rgba(28, 91, 107, 0.3);
 }
 
 .neon-border-active {
   border-color: #229FA0;
-  box-shadow: 0 0 8px rgba(0, 174, 239, 0.4);
+  box-shadow: 0 0 8px rgba(34, 159, 160, 0.4);
 }
 
 /* Custom scrollbars for a steel appearance */
