@@ -6067,13 +6067,14 @@ export default function App() {
       {/* 4. FOOTER CREDITS */}
       <footer
         id="app-footer-credit-line"
-        className="mt-auto py-6 bg-slate-900 text-slate-400 text-xs text-center border-t border-slate-850 select-none print:hidden"
+        className="mt-auto py-6 text-slate-400 text-xs text-center border-t border-[#1C5B6B]/20 select-none print:hidden"
+        style={{ backgroundColor: '#0a2228' }}
       >
         <p>
           © 2026 NextPage Co Integrated System Mapped Securely. Engineered
           with Dual-language (Ar/En) auto-persister.
         </p>
-        <p className="text-[10px] text-cyan-400 mt-1 uppercase font-bold tracking-widest">
+        <p className="text-[10px] mt-1 uppercase font-bold tracking-widest" style={{ color: '#229FA0' }}>
           {lang === "ar"
             ? "بوابة النظام لشركة الصفحة التالية | تم تصميم وتشغيل وبرمجة كامل النظام بواسطة فراس محمد الجزائري - ferasbusiness24@gmail.com"
             : "NextPage Co System Gate | Designed, operated and programmed entirely by Feras Mohamed Al-Jazaery - ferasbusiness24@gmail.com"}
